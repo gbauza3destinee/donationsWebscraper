@@ -35,6 +35,6 @@ So you want to contribute to this project? Awesome!
 1. Fork the repository 
 2. Create a new branch or work under "Working" branch
 3. Make your changes
-4. ** Only add specific files to command git add <fileName>, to avoid exposing starlight file 
-5. Commit your changes "git commit -m"Added new feature"
-6. Push to branch "git push origin feature-branch"
+4. ** Only add specific files to command git add <fileName>, to avoid exposing starlight file **
+5. Commit your changes 'git commit -m"Added new feature"'
+6. Push to branch 'git push origin feature-branch'
