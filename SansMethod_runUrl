@@ -1,0 +1,16 @@
+import requests
+from bs4 import BeautifulSoup
+from selectolax.parser import HTMLParser
+
+
+
+url = "https://arab.org/portal/palestine/where-to-donate/"
+html = requests.get(url)
+print(html)
+
+# parsing
+soup = BeautifulSoup(html.content, 'html.parser')
+
+# I only want to extract links that are under the element "searchbox"
+for link in soup.find_all('a'):
+    print(link.get('href'))
