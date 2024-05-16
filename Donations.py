@@ -55,7 +55,7 @@ def writeUrlsToSpreadsheet(urllist: list[str]):
         urlLen = len(urllist)
 
         #Specify range to write values (column A) 
-        range_urls = '{}!A1:A{}'.format(SPREADSHEET, urlLen)
+        range_urls = '{}!A2:A{}'.format("Donations", urlLen+1)
         
         print("Created range-urls, proceeding to define values to spreadsheet")
     
