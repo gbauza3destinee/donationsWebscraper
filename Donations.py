@@ -39,8 +39,6 @@ def getLinksFromWebPage(url) :
     return links
    
 
-# Debug Bad Request Error
-
 def writeUrlsToSpreadsheet(urllist: list[str]):
    
         # set important spreadsheet/file location vars
